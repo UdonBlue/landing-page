@@ -18,7 +18,7 @@ a {
     color: white;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a, ul {
     padding: 0;
     margin: 0;
 }
@@ -35,6 +35,8 @@ h1, h2, h3, p {
 }
 
 .header {
+    padding-top: 20px;
+    padding-bottom: 30px;
     align-items: center;
     justify-content: space-between;
 }
@@ -128,7 +130,7 @@ h1, h2, h3, p {
 
 .signup {
     margin: 100px 200px 100px 200px;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 100px 30px 100px;
     background-color: rgb(103, 91, 234);
     color: white;
     display: flex;
@@ -145,4 +147,10 @@ h1, h2, h3, p {
 
 .latter {
     border: 2px solid white;
+}
+
+.footer {
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
