@@ -125,3 +125,24 @@ h1, h2, h3, p {
     font-weight: lighter;
     padding-bottom: 10px;
 }
+
+.signup {
+    margin: 100px 200px 100px 200px;
+    padding: 30px 50px 30px 50px;
+    background-color: rgb(103, 91, 234);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.latter {
+    border: 2px solid white;
+}
